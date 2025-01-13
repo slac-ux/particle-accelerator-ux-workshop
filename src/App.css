@@ -32,10 +32,6 @@ p {
   color: #61dafb;
 }
 
-.section {
-  padding: 25px 0px 50px 0px;
-}
-
 button {
   padding: 12px 24px;
   font-size: 16px;
@@ -45,6 +41,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
+  margin-bottom: 20px;
 }
 
 button:hover {

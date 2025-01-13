@@ -1,13 +1,13 @@
 .about-section {
-    padding: 64px 32px;
+    padding: 32px 32px 64px 32px;
     background-color: #f9f9f9;
     text-align: center;
 }
 
 .about-details {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center content */
+    flex-direction: column;
+    align-items: center;
     margin-top: 32px;
 }
 
@@ -49,4 +49,178 @@
     align-self: flex-end;
     margin-left: auto;
     margin-right: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #e0e0e0;
+    padding-left: 0;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #555;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 0;
+}
+
+.tab-button.active {
+    color: #4A90E2; /* Match icon color */
+    border-bottom: 2px solid #4A90E2;
+    font-weight: bold;
+}
+
+.tab-button:hover {
+    color: #4A90E2;
+}
+
+/* Audience Section */
+.audience-section {
+    padding: 64px 32px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.audience-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.audience-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+/* Audience Cards */
+.audience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.audience-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.audience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.audience-card-icon {
+    background-color: #4A90E2;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 16px;
+}
+
+.audience-icon {
+    font-size: 32px;
+    color: #fff;
+}
+
+.audience-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.audience-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .audience-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .audience-card {
+        width: 90%;
+    }
+}
+
+/* Agenda Section */
+.agenda-section {
+    padding: 64px 32px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.agenda-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.agenda-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; /* Adds spacing between the days */
+    margin-top: 32px;
+}
+
+.agenda-day {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 16px 0;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 16px; /* Spacing between icon and text */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.agenda-day:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.agenda-day-icon {
+    font-size: 48px;
+    color: #4A90E2; /* Matches the theme color */
+    flex-shrink: 0; /* Prevents icon from shrinking */
+}
+
+.agenda-day-text {
+    text-align: left;
+}
+
+.agenda-day-text h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.agenda-day-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
 }
