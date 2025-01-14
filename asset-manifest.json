@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/particle-accelerator-ux-workshop/static/css/main.d3525bbb.css",
-    "main.js": "/particle-accelerator-ux-workshop/static/js/main.092b8845.js",
+    "main.css": "/particle-accelerator-ux-workshop/static/css/main.12064480.css",
+    "main.js": "/particle-accelerator-ux-workshop/static/js/main.e1f8ae87.js",
     "static/js/453.f6e79716.chunk.js": "/particle-accelerator-ux-workshop/static/js/453.f6e79716.chunk.js",
     "index.html": "/particle-accelerator-ux-workshop/index.html",
-    "main.d3525bbb.css.map": "/particle-accelerator-ux-workshop/static/css/main.d3525bbb.css.map",
-    "main.092b8845.js.map": "/particle-accelerator-ux-workshop/static/js/main.092b8845.js.map",
+    "main.12064480.css.map": "/particle-accelerator-ux-workshop/static/css/main.12064480.css.map",
+    "main.e1f8ae87.js.map": "/particle-accelerator-ux-workshop/static/js/main.e1f8ae87.js.map",
     "453.f6e79716.chunk.js.map": "/particle-accelerator-ux-workshop/static/js/453.f6e79716.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3525bbb.css",
-    "static/js/main.092b8845.js"
+    "static/css/main.12064480.css",
+    "static/js/main.e1f8ae87.js"
   ]
 }
