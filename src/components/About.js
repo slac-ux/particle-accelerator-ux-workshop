@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { FaPeopleArrows, FaHandsHelping, FaLightbulb, FaUsers, FaCalendarDay, FaBrain, FaFlagCheckered, FaCogs, FaChartBar } from 'react-icons/fa';
 import './About.css';
+import INLLogo from '../images/INL.jpg';
+import FNALLogo from '../images/FNAL.jpg';
+import SLACLogo from '../images/SLAC.jpg';
 
 const aboutContent = (
   <div className="about-section">
@@ -68,10 +71,10 @@ const audienceContent = (
 
 const agendaContent = (
   <div className="about-section">
-  <h2>Agenda</h2>
-  <p>Explore a full-day schedule packed with keynote talks, interactive sessions, and networking opportunities.</p>
-  <div className="about-details">
-  <div className="agenda-day">
+    <h2>Agenda</h2>
+    <p>Explore a full-day schedule packed with keynote talks, interactive sessions, and networking opportunities.</p>
+    <div className="about-details">
+      <div className="agenda-day">
         <FaCalendarDay className="agenda-day-icon" />
         <div className="agenda-day-text">
           <h3>Day 1</h3>
@@ -92,14 +95,32 @@ const agendaContent = (
           <p>Wrap-up with next steps, goal-setting, and optional tours or excursions.</p>
         </div>
       </div>
+    </div>
   </div>
-</div>
 );
+
+const organizerContent = (
+  <div className="about-section">
+    <h2>Organizers</h2>
+    <p>
+      This workshop is a collaborative effort between <strong>INL</strong>, <strong>FNAL</strong>, and <strong>SLAC</strong>, aimed at fostering knowledge sharing and improving operational efficiency. Launched in 2025, this initiative focuses on the importance of <strong>UI/UX</strong> at accelerator facilities, with the goal of involving as many interested parties as possible. We are currently in the early stages and will provide more information following our first preliminary meeting, which will help lay the groundwork for future, formal workshops.
+    </p>
+
+    <div className="logos">
+      <img src={INLLogo} alt="INL Logo" className="logo" />
+      <img src={FNALLogo} alt="FNAL Logo" className="logo" />
+      <img src={SLACLogo} alt="SLAC Logo" className="logo" />
+    </div>
+
+  </div>
+);
+
 
 const tabs = [
   { label: 'About', content: aboutContent },
   { label: 'Audience', content: audienceContent },
   { label: 'Agenda', content: agendaContent },
+  { label: 'Organizers', content: organizerContent },
 ];
 
 const About = () => {
