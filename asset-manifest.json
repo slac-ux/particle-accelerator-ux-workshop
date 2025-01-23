@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/particle-accelerator-ux-workshop/static/css/main.12064480.css",
-    "main.js": "/particle-accelerator-ux-workshop/static/js/main.e1f8ae87.js",
+    "main.css": "/particle-accelerator-ux-workshop/static/css/main.3e805fda.css",
+    "main.js": "/particle-accelerator-ux-workshop/static/js/main.a0cc3f29.js",
     "static/js/453.f6e79716.chunk.js": "/particle-accelerator-ux-workshop/static/js/453.f6e79716.chunk.js",
+    "static/media/FNAL.jpg": "/particle-accelerator-ux-workshop/static/media/FNAL.f9fef89d26b135952367.jpg",
+    "static/media/INL.jpg": "/particle-accelerator-ux-workshop/static/media/INL.fa17cba2f44219ce639b.jpg",
+    "static/media/SLAC.jpg": "/particle-accelerator-ux-workshop/static/media/SLAC.290c0deb8b53926abe94.jpg",
     "index.html": "/particle-accelerator-ux-workshop/index.html",
-    "main.12064480.css.map": "/particle-accelerator-ux-workshop/static/css/main.12064480.css.map",
-    "main.e1f8ae87.js.map": "/particle-accelerator-ux-workshop/static/js/main.e1f8ae87.js.map",
+    "main.3e805fda.css.map": "/particle-accelerator-ux-workshop/static/css/main.3e805fda.css.map",
+    "main.a0cc3f29.js.map": "/particle-accelerator-ux-workshop/static/js/main.a0cc3f29.js.map",
     "453.f6e79716.chunk.js.map": "/particle-accelerator-ux-workshop/static/js/453.f6e79716.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12064480.css",
-    "static/js/main.e1f8ae87.js"
+    "static/css/main.3e805fda.css",
+    "static/js/main.a0cc3f29.js"
   ]
 }
